@@ -1,7 +1,8 @@
-# OSU AI Bootcamp - Challenge 5 - Athletic Sales Analysis
+# OSU AI Bootcamp - Challenge 6 - Data Sourcing Challenge
 ## Submitted by Brandon Allen
 ## Overview
-The task was to complete a jupyter notebook, exploring a data set containing sales data.  The goal was to follow the requests of the assignment, which involved merging two years worth of data, checking for opportunities to clean (null values) and then assessing different aspects of revenue, mostly around region and later by product as well.  Overall this assignment was a good reminder of the Pandas groupby and pivot_table methods.
+The task was to complete a jupyter notebook where we pulled data from the New York Times reviews API first, then joined that with data we pulled from a movie information database API.  That joined data was put into a dataframe, cleaned up, and exported to a CSV.
 ## Files
-- athletic_sales_analysis_starter_code.ipynb is the main file where the assignment is completed.
-- athletic_sales_2020.csv and athletic_sales_2021.csv are the data sources for the assignment.
+- retrieve_movie_data.ipynb is the main file where the assignment is completed.
+- output.csv is the requested aggregated and cleaned data output.
+- The "output" folder and the contents were provided by the lab assignment but not used for the solution.
